@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gridloyout4.css">
+    <title>GridLayout4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .content {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <div class="container">
+        <div class="content">Contenido 1</div>
+        <div class="content">Contenido 2</div>
+        <div class="content">Contenido 3</div>
+    </div>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+/Grid Layout: Un sistema flexible basado en filas y columnas que permite una organización más compleja del contenido.
+</html>

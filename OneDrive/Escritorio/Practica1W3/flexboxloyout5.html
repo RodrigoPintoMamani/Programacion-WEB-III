@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flexboxloyout5.css">
+    <title>FlexboxLayout5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 20px;
+        }
+        .content {
+            background-color: #f4f4f4;
+            padding: 20px;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <div class="container">
+        <div class="content">Contenido 1</div>
+        <div class="content">Contenido 2</div>
+        <div class="content">Contenido 3</div>
+    </div>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+/Flexbox Layout: Un modelo de diseño más flexible que permite crear diseños que se adaptan mejor al espacio disponible.
+</html>
