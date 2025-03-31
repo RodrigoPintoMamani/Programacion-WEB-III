@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loyout3.css">
+    <title>Layout3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+        .principal {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .derecha {
+            background-color: #ddd;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <div class="container">
+        <div class="izquierda">
+            <p>Barra lateral izquierda</p>
+        </div>
+        <div class="principal">
+            <p>Contenido principal</p>
+        </div>
+        <div class="derecha">
+            <p>Barra lateral derecha</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+/Layout de tres columnas : Utilizado para distribuir contenido en tres secciones, generalmente con una barra lateral en ambos lados.
+</html>

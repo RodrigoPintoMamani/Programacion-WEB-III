@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+.principal {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.derecha {
+    background-color: #ddd;
+    padding: 20px;
+}
